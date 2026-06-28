@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "MinhaFonte";
+    src: url("pacote-projeto-d010/fontes/idroid.otf") format("woff2");
+}
+
+
+body{
+    background-color: #c5ebd6;
+}
+header{
+    background-image: linear-gradient(0deg, #1A5C38 ,#43eb8f);
+    padding: 40px;
+    margin: -8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+header p{
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+    font-size: 0.8em;
+}
+header nav{
+    margin-top: 50px;
+    margin-bottom: -30px;
+    margin-left: -30px;
+}
+header a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 7px;
+    margin-right: 10px;
+    text-shadow: 0px 0px 10px rgb(13, 133, 33);
+    font-size: 0.8em;
+    transition-duration: 0.6s;
+}
+header a:hover{
+    background-color: #11743d;
+    border-radius: 4px;
+    color: #1ba75a;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    padding: 15px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.418);
+    border-radius: 0px 0px 10px 10px;
+}
+#seção1 h1{
+    font-family: "MinhaFonte";
+    font-size: 1.4em;
+    color: #145833;
+}
+#seção2 h2{
+    font-family: "MinhaFonte";
+    font-size: 1.2em;
+    background-image: linear-gradient(-90deg, white, #2b9b5d94);
+    color: #145833;
+}
+.linkseção2{
+    background-color: #25ce71;
+    padding: 2px;
+    color: #0b4e29;
+    font-weight: bold;
+    text-decoration: none;
+}
+.linkseção2:hover{
+    text-decoration: underline;
+}
+.linkseção2::after{
+    content: "\1F4CE";
+}
+#seção2 picture img{
+    width: 100%;
+}
+.verdebold{
+    color: #145833;
+    font-weight: bold;
+}
+#seção3 h2{
+    font-family: "MinhaFonte";
+    font-size: 1.2em;
+    background-image: linear-gradient(-90deg, white, #2b9b5d94);
+    color: #145833;
+}
+#seção3 picture img{
+    width: 100%;
+}
+#seção4 img{
+    display: block;
+    margin: auto;
+}
+#video{
+    background-color: #145833;
+    padding: 34%;
+    margin: -15px;
+    position: relative;
+}
+#video iframe{
+    position: absolute;
+    top: 11%;
+    left: 7%;
+    width: 86%;
+    height: 75%;
+}
+#extra{
+    background-color: #b4dac5;
+    padding: 2px 8px 10px 13px;
+    margin-top: 37px;
+    border-radius: 15px;
+}
+#principal{
+    background-color: #2a794d;
+    padding: 5px;
+    margin-top: -1px;
+    margin-left: -12px;
+    margin-right: -7px;
+    border-radius: 10px 10px 0px 0px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#listas ul{
+    display: inline-block;
+}
+footer{
+    background-color: #145833;
+    margin: 22px -8px -17px -9px;
+    padding: 4px;
+    text-align: center;
+}
+footer p{
+    margin: 0px;
+    color: white;
+}
